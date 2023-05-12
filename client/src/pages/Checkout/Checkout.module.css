@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  margin: 16px auto;
+}
+
+.inputField {
+  margin: 4px 0;
+  min-width: 200px;
+}
+
+.inputField {
+  width: 90%;
+}
+
+.inputField > input {
+  width: 100%;
+}
+
+.inputField > label {
+  display: block;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  margin: 8px 0;
+}

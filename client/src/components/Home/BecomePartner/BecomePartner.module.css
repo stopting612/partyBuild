@@ -1,0 +1,25 @@
+.container {
+    position: relative
+}
+
+.container h2 {
+	position: absolute;
+	color: #eee;
+	left: 0;
+	right: 0;
+    margin: 0 auto;
+    padding: 9px 10px;
+    width: fit-content;
+    background-color: #111a;
+    top: 35%;
+}
+
+.container > img {
+	width: 100%;
+}
+
+@media (min-width: 800px) {
+    .container h2 {
+        top: 15%;
+    }
+}

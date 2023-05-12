@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    align-items: center;
+    min-width: 135px;
+}
+
+.logo > img {
+    height: 60px;
+}
+
+.logo > span {
+    color: var(--color-text-main);
+    font-weight: bold;
+}

@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.userIcon {
+  display: none;
+}
+
+.navListContainer {
+  overflow-x: scroll;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  width: max-content;
+  min-width: 120px;
+  margin: 8px 0;
+}
+
+.navList > li {
+  margin: 0 4px;
+}
+
+.navList > li > a {
+  cursor: pointer;
+  padding: 5px 8px;
+  display: inline-block;
+  width: 100%;
+}
+
+.navList > li > a:hover {
+  color: #555;
+}
+
+@media (min-width: 800px) {
+  .navbar {
+    align-items: center;
+  }
+
+  .userIcon {
+    display: block;
+  }
+
+  .navList {
+    flex-direction: column;
+  }
+
+  .navList > li {
+    padding: 10px 4px;
+  }
+
+  .navList > li > a {
+    padding: 0 4px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navList > li > a {
+    border-right: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .navListContainer {
+    mask-image: -webkit-linear-gradient(
+      to right,
+      transparent,
+      black 20px,
+      black 90%,
+      transparent
+    );
+    mask-image: -moz-linear-gradient(
+      to right,
+      transparent,
+      black 20px,
+      black 90%,
+      transparent
+    );
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 20px,
+      black 90%,
+      transparent
+    );
+    -webkit-mask-image: -webkit-linear-gradient(
+      to right,
+      transparent,
+      black 20px,
+      black 90%,
+      transparent
+    );
+    -webkit-mask-image: -moz-linear-gradient(
+      to right,
+      transparent,
+      black 20px,
+      black 90%,
+      transparent
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 20px,
+      black 90%,
+      transparent
+    );
+  }
+}

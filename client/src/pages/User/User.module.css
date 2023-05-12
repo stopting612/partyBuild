@@ -1,0 +1,29 @@
+.background {
+  background-color: #F7F7F7;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1600px;
+  min-height: calc(100vh - 100px);
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  background-color: #FFF;
+  border-left: 2px solid #ECECEC;
+  border-right: 2px solid #ECECEC;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    padding: 0 3%;
+  }
+
+  .navbar {
+    width: 20%;
+  }
+}

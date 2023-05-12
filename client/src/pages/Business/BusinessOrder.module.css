@@ -1,0 +1,187 @@
+.background {
+  background-color: var(--color-background-main);
+  min-height: calc(100vh - 162px);
+}
+
+.bigContainer > a,
+.container {
+  margin: 0 auto;
+  color: #fff;
+  max-width: 1600px;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.bigContainer > a {
+  padding: 8px;
+}
+
+.bigContainer > a:hover {
+  background-color: var(--color-background-hover);
+}
+
+.bigContainer > a,
+.header,
+.filter,
+.sort {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--color-background-secondary);
+  padding: 8px;
+  margin: 8px 0;
+  align-items: center;
+  position: relative;
+}
+
+.header > span,
+.statusContainer > span {
+  flex: 1;
+  padding: 0 4px;
+  word-break: break-all;
+}
+
+.statusContainer > span {
+  padding: 2px 4px;
+}
+
+.person {
+  max-width: 40px;
+}
+
+.status {
+  max-width: 40px;
+}
+
+.specialRequest {
+  background-color: var(--color-background-main);
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  margin: 4px 8px;
+}
+
+.specialContainer {
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.bigContainer > a,
+.statusContainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.statusContainer > div {
+  width: 100%;
+}
+
+.statusContainer > span {
+  width: 100%;
+}
+
+.store,
+.customer {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time {
+  white-space: pre-line;
+}
+
+.confirmButton {
+  margin-bottom: 2px;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.status {
+  position: relative;
+  white-space: nowrap;
+}
+
+.status:before {
+  content: '';
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  left: calc(35% - 18px);
+  top: 7px;
+  border-radius: 5px;
+}
+
+.statusRed:before {
+  background-color: red;
+}
+
+.statusYellow:before {
+  background-color: yellow;
+}
+
+.statusGreen:before {
+  background-color: green;
+}
+
+.statusGrey:before {
+  background-color: grey;
+}
+
+@media (min-width: 506px) {
+  .container {
+    padding: 12px 3%;
+  }
+
+  .background {
+    min-height: calc(100vh - 136px);
+  }
+
+  .person {
+    max-width: 50px;
+  }
+
+  .status {
+    max-width: 150px;
+  }
+}
+
+@media (min-width: 700px) {
+  .background {
+    min-height: calc(100vh - 100px);
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    font-size: 16px;
+  }
+
+  .header > span {
+    padding: 0 8px;
+  }
+
+  .statusContainer > span {
+    padding: 4px 8px;
+  }
+
+  .status {
+    margin-right: 10px;
+  }
+
+  .bigContainer > a,
+  .container {
+    font-size: 16px;
+  }
+
+  .time {
+    white-space: normal;
+  }
+
+  .status:before {
+    top: 11px;
+  }
+}

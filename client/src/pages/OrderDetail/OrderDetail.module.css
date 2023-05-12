@@ -1,0 +1,370 @@
+.title {
+  display: flex;
+  justify-content: center;
+  color: var(--color-background-main);
+}
+
+.container {
+  border: rgb(235, 235, 226) solid 1px;
+  background-color: var(--color-background-secondary);
+  color: rgb(250, 250, 250);
+}
+
+.container h4 {
+  margin-left: 20px;
+  font-size: 26px;
+  color: var(--color-text-main);
+}
+
+.activityPriceByPerson {
+  position: relative;
+}
+.titleContainer > .activityPerson {
+  position: relative;
+  flex: 2;
+}
+
+.createContainer > .activityPerson {
+  flex: 2;
+}
+
+.whatsappContainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000033;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.content {
+  background-color: #ffffff;
+  width: 80vw;
+  height: 35vh;
+  padding: 40px;
+  position: relative;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.container .editDate {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.container .showDate {
+  padding: 15px;
+  padding-left: 20px;
+  display: flex;
+  font-size: 18px;
+}
+
+.container .showTime {
+  padding: 10px;
+  display: flex;
+}
+
+.datePicker {
+  max-width: 500px;
+  padding: 5px;
+}
+
+.container button {
+  border: none;
+  background-color: var(--color-background-secondary);
+  color: rgb(250, 250, 250);
+  max-width: 205px;
+}
+
+.saveAllOption {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+
+.checkBoxContainer h3 {
+  color: var(--color-text-main);
+  font-size: 25px;
+  margin-left: 7px;
+}
+
+.underline {
+  display: block;
+  width: 90%;
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: rgb(174, 173, 173);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.priceDetail {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-main);
+  color: rgb(250, 250, 250);
+  font-size: 16px;
+}
+.partyRoomPriceDetail {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0;
+}
+
+.saveAllOption {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: var(--color-background-main);
+}
+
+.priceDetail h2 {
+  margin-left: 20px;
+  font-size: 30px;
+  color: var(--color-text-main);
+}
+
+.totalPriceContainer {
+  font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  color: var(--color-text-main);
+  padding: 10px;
+}
+
+.calculatorContainer {
+  background-color: var(--color-background-main);
+}
+.titleContainer > * {
+  margin: 0;
+  flex: 1;
+  font-size: 15px;
+}
+
+.partyRoomCounter > * {
+  width: 100%;
+  color: rgb(250, 250, 250);
+}
+
+.calculator {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.calculator h3 {
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.addActivity {
+  display: flex;
+  align-items: center;
+}
+
+.addActivity > input {
+  max-width: 120px;
+}
+.addPrice > input {
+  max-width: 120px;
+}
+
+.addActivityContainer button {
+  border-radius: 4px;
+  font-size: 10px;
+  /* position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 0%;
+    background-color: var(--color-background-main) ; */
+}
+
+.content {
+  background-color: #20232a;
+}
+.shareTitle {
+  display: flex;
+  color: #fff;
+  font-size: 25px;
+}
+
+.whatsAppTitle {
+  margin: 5px;
+  padding: 5px;
+}
+
+.linkContainer {
+  color: #282727;
+  background-color: #fff;
+  padding: 5px;
+  margin: 7px;
+  min-width: 10px;
+  overflow-wrap: break-word;
+}
+
+.partyRoomCounter {
+  color: rgb(116, 100, 100);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.copyContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator .titleContainer {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  padding: 15px;
+  color: var(--color-text-main);
+  background-color: var(--color-background-main);
+}
+
+.createIcon {
+  padding-bottom: 10px;
+  background-color: var(--color-background-main);
+}
+.createContainer {
+  display: flex;
+  margin-left: 0px;
+  justify-content: flex-start;
+  background-color: var(--color-background-main);
+  padding: 4px 15px;
+  font-size: 13px;
+}
+
+.createContainer > div {
+  flex: 1;
+}
+
+.addPriceContainer {
+  display: flex;
+  align-items: center;
+}
+
+.addActivity > input,
+.addPrice > input {
+  width: 90%;
+}
+
+.addIconConatiner {
+  max-width: 700px;
+  margin-left: 8px;
+}
+
+.showActivityDetail {
+  background-color: var(--color-background-main);
+  color: rgb(250, 250, 250);
+}
+
+.activityContainer {
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.partyRoomCalculator,
+.foodCalculator,
+.alcoholCalculator,
+.addActivityContainer {
+  padding: 4px 15px;
+  background-color: var(--color-background-main);
+}
+
+.whatsapps {
+  background-color: var(--color-background-main);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px;
+  max-width: 90vw;
+  box-shadow: 0 0 3px var(--color-text-main);
+}
+
+@media (min-width: 800px), (min-width: 768px) {
+  .container,
+  .priceDetail,
+  .showActivityDetail,
+  .whatsappBtn {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .content {
+    width: 50vh;
+    height: 20vh;
+  }
+
+  .btnContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .showOrderCard {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .underline {
+    max-width: 1200px;
+  }
+  .calculatorContainer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .createIcon {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .createContainer {
+    font-size: 18px;
+  }
+
+  .titleContainer > * {
+    /* margin-left: 5px; */
+    width: 100%;
+    font-size: 18px;
+  }
+  .showActivityDetail {
+    padding: 10px;
+    padding-bottom: 24px;
+  }
+  .partyRoomPriceDetail {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .priceDetail {
+    font-size: 18px;
+  }
+  .priceDetail .price {
+    padding-right: 10px;
+  }
+}

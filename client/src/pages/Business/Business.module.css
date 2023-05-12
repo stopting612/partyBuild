@@ -1,0 +1,26 @@
+.background {
+  background-color: var(--color-background-main);
+  min-height: calc(100vh - 100px);
+  padding: 4px 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0 3%;
+}
+
+.container > div {
+  flex: 1;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+  }
+}

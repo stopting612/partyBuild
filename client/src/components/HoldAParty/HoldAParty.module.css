@@ -1,0 +1,198 @@
+.container {
+  max-width: 932px;
+  margin: 0 auto;
+  background-color: #FFF;
+  padding-bottom: 8px;
+  min-height: calc(100vh - 180px);
+  position: relative;
+  padding-bottom: 40px;
+}
+
+/* form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputField,
+.optionsField {
+  margin: 12px 0;
+  min-width: 200px;
+}
+
+.inputField {
+  width: 90%;
+  margin: 7px;
+}
+
+.inputField > input {
+  width: 100%;
+}
+
+.inputField > label,
+.optionsField > legend {
+  display: block;
+  font-weight: bold;
+}
+
+.options {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr  ;
+}
+
+.options > div {
+  margin-top: 10px;
+  margin-right: 16px;
+}
+
+.options > div > label {
+  padding: 5px;
+}
+
+.optionsField {
+  width: 90%;
+}
+
+.buttonsContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 0 8px;
+  position: relative;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+}
+
+.buttonsContainer button:last-child {
+  padding: 8px 10px;
+}
+
+.rowReverse {
+  flex-direction: row-reverse;
+}
+
+.skipButton {
+  background-color: initial;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #777;
+}
+
+.skipButton:focus {
+  outline: none;
+}
+
+.skipButton:hover {
+  color: #000;
+}
+
+/* choice */
+.cardContainer > div {
+  margin: 12px auto;
+}
+
+.detailsContainer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #0003;
+  z-index: 9999;
+}
+
+.details {
+  position: relative;
+  overflow-y: scroll;
+  background-color: #fff;
+  margin: 5%;
+  box-shadow: 0 0 4px #999;
+}
+
+.showMoreButtonContainer{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.showMoreButton {
+  width: 30%;
+  height: 24px;
+  font-size: 14px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ccc;
+}
+
+.closeButton {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 6%;
+  padding: 4px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: var(--color-text-main);
+}
+
+.createNewParty {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0007;
+}
+
+@media (min-width: 500px) {
+  .optionsField {
+    width: 65%;
+    margin-left: 15%;
+  }
+  .inputField {
+    width: 50%;
+  }
+}
+
+@media (min-width: 710px) {
+  .optionsField {
+    width: 45%;
+    margin-left: 5%;
+  }
+  .inputField {
+    width: 40%;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .showMoreButton {
+    width: 50%;
+  }
+}
+
+@media (min-width: 500px) {
+  .buttonsContainer {
+    font-size: 16px;
+  }
+
+  .buttonsContainer button:last-child {
+    padding: 8px 16px;
+  }
+}

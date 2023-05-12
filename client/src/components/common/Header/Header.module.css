@@ -1,0 +1,6 @@
+.container {
+  text-align: center;
+  background-color: var(--color-background-main);
+  color: var(--color-text-main);
+  padding: 10px;
+}

@@ -1,0 +1,14 @@
+.mainImage {
+    position: relative;
+    top: -70px;
+}
+
+.mainImage > img {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .mainImage {
+        top: -35px;
+    }
+}

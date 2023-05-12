@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.container > input {
+  width: 100%;
+}
+
+.buttons {
+  margin: 0 3px;
+  padding: 0 3px;
+  cursor: pointer;
+}

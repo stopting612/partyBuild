@@ -1,0 +1,46 @@
+.commentContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.partyComment p{
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+}
+
+.starContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+}
+
+.group textarea {
+  width: 300;
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 320px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c6c6c6;
+
+}
+
+input[type='radio'] {
+  display: none;
+}

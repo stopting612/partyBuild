@@ -1,0 +1,32 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardContainer > div {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.cardContainer img {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .cardContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cardContainer > div {
+    width: calc(50% - 8px);
+    margin: 4px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardContainer {
+    flex-wrap: nowrap;
+  }
+}

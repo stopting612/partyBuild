@@ -1,0 +1,28 @@
+.priceTable {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 13px;
+}
+
+.priceTable th,
+.priceTable td {
+  border: 1px solid #000;
+  padding: 4px;
+}
+
+.priceTable th:not(:first-child),
+.priceTable td:not(:first-child) {
+  width: 37%;
+}
+
+@media (min-width: 800px) {
+  .priceTable {
+    font-size: 16px;
+  }
+
+  .priceTable th:not(:first-child),
+  .priceTable td:not(:first-child) {
+    width: 300px;
+  }
+}

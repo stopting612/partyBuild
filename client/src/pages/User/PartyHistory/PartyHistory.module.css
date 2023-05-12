@@ -1,0 +1,36 @@
+.bigContainer {
+  background-color: rgb(242, 239, 239);
+  min-height: calc(100vh - 100px);
+}
+.bigContainer h2 {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: var(--color-text-main);
+  background-color: var(--color-background-main);
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+  font-size: 18px;
+  margin-top: 1px;
+  flex: 1;
+  color: #ffffff;
+  background-color: var(--color-background-main);
+}
+
+.titleContainer > div {
+  width: 100%;
+  padding-right: 8px;
+}
+
+.activityComment {
+  max-width: 50px;
+}
+
+.bigContainer > div:last-child {
+  color: #000;
+}

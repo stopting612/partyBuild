@@ -1,0 +1,48 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardContainer > div {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.box {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: calc(100% - 3px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1113;
+  top: 0;
+  transition: all 0.2s;
+}
+
+.title:hover {
+  background-color: #111a;
+}
+
+.cardContainer img {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .cardContainer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cardContainer > div {
+    width: 30%;
+  }
+}

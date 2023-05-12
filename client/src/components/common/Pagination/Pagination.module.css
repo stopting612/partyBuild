@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding: 8px;
+  color: white;
+}
+
+.page > span {
+  padding: 2px;
+}
+
+.page > select {
+  max-width: 50px;
+}

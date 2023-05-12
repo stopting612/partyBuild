@@ -1,0 +1,153 @@
+.background {
+  background-color: var(--color-background-main);
+  min-height: calc(100vh - 162px);
+}
+
+.container {
+  padding: 12px 3%;
+  margin: 0 auto;
+  color: #fff;
+  max-width: 1600px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.container > div {
+  background-color: var(--color-background-secondary);
+  padding: 8px 12px;
+  margin: 8px 0;
+}
+
+.container > .branchNav {
+  text-align: left;
+  padding: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.branchNav > span {
+  padding: 6px;
+  margin: 4px 6px;
+  cursor: pointer;
+}
+
+.branchNav > span:hover {
+  color: var(--color-text-main);
+  background-color: var(--color-background-main);
+}
+
+.branchButton {
+  background-color: #999;
+}
+
+.currentBranchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currentBranch {
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px;
+}
+
+.currentBranchContainer button {
+  margin: 0 12px;
+}
+
+.header,
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.header > span,
+.content > span {
+  flex: 1;
+}
+
+.container > .content {
+  padding: 12px;
+}
+
+.container > .header,
+.container > .content {
+  padding-right: 120px;
+}
+
+.status {
+  width: 100px;
+  position: relative;
+}
+
+.content .statusRed:before {
+  content: '';
+  height: 4px;
+  width: 4px;
+  background-color: red;
+  position: absolute;
+  left: calc(50% - 24px);
+  top: calc(50% - 2px);
+  border-radius: 5px;
+}
+
+.content .statusGreen:before {
+  content: '';
+  height: 4px;
+  width: 4px;
+  background-color: green;
+  position: absolute;
+  left: calc(50% - 24px);
+  top: calc(50% - 2px);
+  border-radius: 5px;
+}
+
+.editButton {
+  position: absolute;
+  right: 65px;
+  top: calc(50% - 18px);
+}
+
+.deleteButton {
+  position: absolute;
+  right: 5px;
+  top: calc(50% - 18px);
+}
+
+.container > div:last-child {
+  padding: 4px;
+  background-color: initial !important;
+}
+
+@media (min-width: 506px) {
+  .background {
+    min-height: calc(100vh - 136px);
+  }
+}
+
+@media (min-width: 700px) {
+  .background {
+    min-height: calc(100vh - 100px);
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    font-size: 16px;
+  }
+
+  .content .status:before {
+    left: calc(50% - 30px);
+  }
+
+  .editButton {
+    right: 90px;
+  }
+
+  .deleteButton {
+    right: 10px;
+  }
+}

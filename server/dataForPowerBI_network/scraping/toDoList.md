@@ -1,0 +1,21 @@
+# To do list
+
+- [ ] Scraping party room data (Party room 名字, 價錢, 數量, 電話, 地址, 面積)
+  - [x] https://www.hellotoby.com/en/s/party-room
+  - [x] https://reubird.hk/search/type/party-room
+  - [x] https://www.venuehub.hk/zh/venue-types/party-room
+  - [x] https://start4fun.com/search/partyroom?gclid=Cj0KCQjw4v2EBhCtARIsACan3nx669gaz6dOjHdpjd0bVF3hSqj0kFo1RXBSahPRxvL7B8TYw6RoN1IaAoXmEALw_wcB
+  - [ ] https://ggpartyroom.com/party-room/reservation-now/
+  - [x] https://www.2book.co/zh/venue/main/category/party-room
+- [ ] Data cleaning
+- [ ] PowerBI
+- [x] 設計問卷問題
+  - [x] Party room
+    - [x] 店主
+    - [x] User
+  - [x] 到會
+    - [x] Supplier
+    - [x] User
+  - [x] 酒
+    - [x] Supplier
+    - [x] User

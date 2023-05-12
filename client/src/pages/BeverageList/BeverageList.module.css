@@ -1,0 +1,114 @@
+.mainContainer {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.miniContainer {
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.title {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+  
+}
+
+.moreFilterContainer {
+    display: flex;
+}
+
+
+.filterContainer{
+    max-width: 600px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    justify-content:space-between;
+    max-width: 50px;
+    max-height: 43px;
+}
+
+/* .title::before{
+    content: '';
+    display: block;
+    width: 80%;
+    height: 3px;
+    background: grey;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, 0%);
+} */
+
+.title h1 {
+    color:var(--color-background-main);
+}
+
+.underline{
+    display: block;
+    width: 92%;
+    height: 1px;
+    background: rgb(174, 173, 173);
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+@media (min-width : 800px){
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .miniContainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        /* display: flex; */
+        /* flex-direction: row;
+        flex: 1; */
+        /* justify-content: flex-start; */
+        /* flex-wrap: wrap; */
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-gap: 5px;	
+    
+    }
+    .filterContainer{
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .searchBarContainer {
+        margin-top: 21px;
+    
+    }
+
+
+    .partyRoomListContainer{
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+
+
+    
+
+    .mainContainer{
+        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+}

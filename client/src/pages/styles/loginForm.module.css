@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8%;
+  min-height: calc(100vh - 100px);
+  background-color: var(--color-background-main);
+  color: #fff;
+}
+
+.container > div {
+  margin: 4px 0;
+}
+
+.container form {
+  text-align: center;
+}
+
+.container label {
+  display: inline-block;
+  width: 80px;
+  margin: 0 10px;
+}
+
+.container input {
+  padding: 4px;
+}
+
+.form > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 0;
+}
+
+.errorMessage {
+  min-height: 30px;
+  color: red;
+}
+
+.loginButton button,
+.registerButton button {
+  min-width: 200px;
+}
+
+.underlineButton {
+  border: none;
+  background-color: unset;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.underlineButton:focus {
+  outline: none;
+}
+
+.underlineButton:hover {
+  color: #fff;
+}
+
+@media (min-width: 360px) {
+  .container label {
+    text-align: right;
+  }
+
+  .container input {
+    margin-right: 80px
+  }
+}

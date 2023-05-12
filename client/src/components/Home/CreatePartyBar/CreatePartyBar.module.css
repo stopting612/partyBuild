@@ -1,0 +1,111 @@
+.form {
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 80px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 90%;
+  height: 160px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(13, 16, 16);
+  max-width: 400px;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputContainer > div {
+  margin: 4px auto;
+  width: 100%;
+}
+
+.inputContainer label {
+  display: block;
+  padding: 2px;
+}
+
+.personInput input,
+.dateInput input {
+  display: block;
+  height: 28px;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.buttonContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 8px 16px;
+}
+
+.buttonContainer button {
+  width: 100%;
+  padding: 2px;
+}
+
+@media (min-width: 800px) {
+  .form {
+    top: 80px;
+    width: 80%;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1000px;
+    flex-direction: row;
+  }
+
+  .form > div {
+    text-align: left;
+  }
+
+  .inputContainer {
+    justify-content: space-around;
+    flex: 6;
+    flex-direction: row;
+    margin-left: 16px;
+  }
+
+  .inputContainer > div {
+    margin: 4px 8px;
+  }
+  
+
+  .personInput input,
+  .dateInput input {
+    width: 180px;
+  }
+
+  .buttonContainer {
+    height: unset;
+  }
+
+  .buttonContainer button {
+    width: unset;
+    padding: 8px 16px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .personInput input,
+  .dateInput input {
+    width: 240px;
+  }
+}

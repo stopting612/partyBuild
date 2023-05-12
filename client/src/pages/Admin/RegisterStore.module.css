@@ -1,0 +1,73 @@
+.container {
+  background-color: #f7f7f7;
+  min-height: calc(100vh - 100px);
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 36px;
+}
+
+.form > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+}
+
+.form > div > label,
+.form > div > legend {
+  width: 100px;
+  min-width: 100px;
+}
+
+.form > div > input,
+.form > div > textarea {
+  width: 100%;
+  padding: 4px;
+}
+
+.optionsContainer {
+  width: 100%;
+}
+
+.person > span {
+  padding: 0 4px;
+}
+
+.person > input {
+  text-align: center;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.optionsContainer label {
+  padding-right: 4px;
+}
+
+.optionsContainer input {
+  margin-right: 8px;
+}
+
+.facility {
+  white-space: nowrap;
+  margin: 4px;
+}
+
+.buttonContainer {
+  margin-top: 20px !important;
+  position: relative;
+}
+
+.resetButton {
+  position: absolute;
+  right: 0;
+}

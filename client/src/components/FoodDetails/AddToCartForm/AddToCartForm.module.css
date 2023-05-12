@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.form {
+  margin: 12px;
+  padding: 16px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputField {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.inputField > label {
+  width: 80px;
+  text-align: center;
+}
+
+.inputField > div,
+.inputField > select {
+  width: 180px;
+  max-width: 180px;
+}
+
+.addToButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.orderPrice {
+  width: 160px;
+}
+
+.choosePartyToAdd {
+  background-color: #0007;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,60 @@
+.activityContainer {
+  display: flex;
+  padding: 16px;
+  border: rgba(224, 228, 220, 0.427) solid 2px;
+  justify-content: space-between;
+  background: #f7f7f7;
+  color: #010101;
+  margin: 8px;
+}
+
+.activityContainer:hover {
+  background-color: #fff;
+}
+
+.activityContainer > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.activityDone span {
+  background-color: #41c71f;
+  font-size: 12px;
+  padding: 10px;
+  color: #f9f9f9;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.activityPaid span {
+  background-color: #7e65df;
+  padding: 10px;
+  color: #f4f4f4;
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.comment {
+  max-width: 50px;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .activityDone span {
+    background-color: #41c71f;
+    font-size: 15px;
+    padding: 10px;
+    color: #f9f9f9;
+    border-radius: 5px;
+  }
+  .activityPaid span {
+    background-color: #7e65df;
+    padding: 10px;
+    color: #f4f4f4;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+}

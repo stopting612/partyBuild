@@ -1,0 +1,20 @@
+.commentContainer {
+  width: 90%;
+}
+
+.commentHeader {
+  padding: 0 8px;
+}
+
+.commentHeader > span {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.comment {
+  background-color: #eee;
+  padding: 12px 8px;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}

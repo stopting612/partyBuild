@@ -1,0 +1,47 @@
+.partyRoomCounter > * {
+  flex: 1;
+  color: rgb(250, 250, 250);
+  background-color: var(--color-background-main);
+  font-size: 13px;
+}
+
+.partyRoomCounter {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.name,
+.partyRoomPerson {
+  max-width: 100%;
+}
+
+.name input,
+.partyRoomPerson input {
+  width: 45%;
+}
+.name button,
+.partyRoomPerson button {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.partyRoomPerson {
+  flex: 2;
+}
+
+@media (min-width: 768px) {
+  .partyRoomCounter {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .partyRoomCounter > * {
+    width: 100%;
+    color: rgb(250, 250, 250);
+    background-color: var(--color-background-main);
+    font-size: 18px;
+  }
+}

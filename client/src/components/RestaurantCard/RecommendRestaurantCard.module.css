@@ -1,0 +1,102 @@
+.container {
+  border: solid #171616 1px;
+  font-family: Noto Sans Bassa Vah;
+  background-color: var(--color-background-main);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.container h2 {
+  flex: 1;
+  width: 100%;
+  margin-top: 0;
+  color: var(--color-text-main);
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+}
+
+.photo {
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+}
+
+.container p {
+  color: rgb(247, 247, 247);
+}
+
+.cardDetail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardContent {
+  padding: 8px 4px;
+}
+
+.container button {
+  color: rgb(37, 37, 38);
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+.container button:hover {
+  color: #eeeeee;
+  background-color: skyblue;
+  transition: 0.5s;
+}
+
+.commentContainer {
+  color: rgb(255 255 255);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.detailButton{
+  padding-top: 10px;
+}
+
+.commentIcon{
+  padding-right: 5px ;
+}
+
+.price {
+  color:lightsteelblue;
+  font-size: 16px;
+}
+
+.container img {
+  width: 50%;
+  height: auto;
+}
+
+@media (min-width: 800px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .container h2 {
+    margin-top: 20px;
+  }
+
+  .container img {
+    width: 50%;
+    height: auto;
+  }
+
+  .cardContent {
+    padding: 14px;
+  }
+
+  .photo {
+    background-position: center center;
+    max-width: 500px;
+  }
+}

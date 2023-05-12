@@ -1,0 +1,20 @@
+.mainImageContainer {
+    background-color: var(--color-background-main);
+    padding:3%;
+}
+
+.mainImageContainer > div {
+    max-width: 1700px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.container {
+	padding: 0 3%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.viewAll {
+    margin-bottom: 8px;
+}

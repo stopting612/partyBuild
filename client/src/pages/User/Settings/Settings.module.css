@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.form {
+  margin-top: 60px;
+}
+
+.form > div {
+  margin-bottom: 12px;
+}
+
+.form label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  padding-right: 8px;
+}
+
+.form input {
+  padding: 4px;
+  width: 230px;
+}
+
+.errorMessage {
+  min-height: 30px;
+  color: red;
+}

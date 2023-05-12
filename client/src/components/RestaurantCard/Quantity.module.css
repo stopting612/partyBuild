@@ -1,0 +1,12 @@
+.formContainer {
+  max-width: 100px;
+  margin: 4px 0;
+}
+
+.formContainer label {
+  color: #FFF;
+}
+
+.formContainer div {
+  margin: 4px 0;
+}

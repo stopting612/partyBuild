@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+	height: 50px;
+	border-bottom: double #000;
+}
+
+.container > div {
+	flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div > span {
+    background: inherit;
+	background-clip: text;
+	color: transparent;
+	filter: invert(1);
+    display: block;
+}
+
+.textMain {
+	background-color: var(--color-text-main);
+}
+
+.backgroundMain {
+	background-color: var(--color-background-main);
+}
+
+.backgroundSecondary {
+	background-color: var(--color-background-secondary);
+}
+
+.commentText {
+	background-color: var(--color-comment);
+}
+
+.price {
+	background-color: var(--color--price);
+
+}
+
+.hover {
+	background-color: var(--color-hover);
+}

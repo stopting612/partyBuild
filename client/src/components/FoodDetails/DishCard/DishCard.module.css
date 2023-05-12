@@ -1,0 +1,14 @@
+.container {
+  padding: 4px 12px;
+  box-sizing: border-box;
+  width: 350px;
+}
+
+.imageContainer > img {
+  width: 100%;
+}
+
+.container > div {
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,62 @@
+.container {
+  min-height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #ddd;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 3%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+}
+
+.socials {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 0 4px;
+}
+
+.socials > svg {
+  height: 25px;
+  padding: 0 4px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links > span {
+  padding: 0 8px;
+  margin: 4px 0;
+}
+
+.links > a {
+  padding: 0 8px;
+  margin: 4px 0;
+  color: #ddd
+}
+
+.copyright {
+  min-width: 140px;
+  align-self: flex-end;
+  margin: 4px 0;
+}
+
+@media (min-width: 700px) {
+  .socials {
+    width: unset;
+    margin: 0;
+  }
+
+  .copyright {
+    align-self: center;
+  }
+}

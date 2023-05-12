@@ -1,0 +1,32 @@
+.bigContainer {
+  background-color: rgb(242, 239, 239);
+  min-height: calc(100vh - 100px);
+}
+.bigContainer h2 {
+  padding : 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color:  var(--color-text-main);
+
+}
+
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  padding : 10px 24px;
+  margin-top: 1px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: var(--color-background-main)
+}
+
+.titleContainer > div {
+  flex: 2;
+  padding-right: 8px;
+}
+
+.titleContainer > .placeholder {
+  flex: 1
+}

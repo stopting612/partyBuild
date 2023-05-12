@@ -1,0 +1,51 @@
+.facilityList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.facility {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  margin-bottom: 20px;
+  padding-right: 12px;
+}
+
+.facilityItem {
+  min-width: 120px;
+  width: 90%;
+  max-width: 220px;
+  padding: 0 8px;
+}
+
+.notAvailable {
+  color: #999;
+}
+
+.buttonContainer {
+  padding-left: 8px;
+}
+
+@media (min-width: 600px) {
+  .facility {
+    width: 33%;
+  }
+}
+
+@media (min-width: 800px) {
+  .facilityList {
+    max-height: 200px;
+  }
+
+  .facility {
+    width: 25%;
+  }
+/* 
+  .facilityItem {
+    width: 50%;
+  } */
+}

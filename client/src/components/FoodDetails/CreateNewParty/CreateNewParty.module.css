@@ -1,0 +1,35 @@
+.container {
+  height: 30%;
+  width: 30%;
+  min-height: 180px;
+  min-width: 300px;
+  background-color: var(--color-background-main);
+  color: #fff;
+  border: 1px solid var(--color-background-secondary);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  height: 100%;
+}
+
+.form > div {
+  padding: 8px;
+}
+
+.input > * {
+  margin: 4px;
+}
+
+.input > label {
+  display: block
+}
+
+.input > input {
+  padding: 4px;
+  text-align: center;
+}

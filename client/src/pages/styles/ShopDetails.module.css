@@ -1,0 +1,30 @@
+.header {
+  background-color: var(--color-background-main);
+}
+
+.section {
+  padding: 12px 3%;
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section:not(:last-child):before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 1px;
+  background-color: var(--color-background-secondary);
+}
+
+.section > div {
+  flex: 1;
+}
+
+@media (min-width: 800px) {
+  .section {
+    display: flex;
+    align-items: center;
+  }
+}

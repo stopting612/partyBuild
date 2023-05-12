@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 1000px;
+}
+
+.name {
+  display: none;
+  padding: 8px;
+  color: #fff;
+}
+
+.userPanel {
+  flex-direction: column-reverse;
+  font-size: 24px;
+  color: unset;
+}
+
+.userPanelImage {
+  width: 100px;
+}
+
+@media (min-width: 350px) {
+  .container {
+    min-width: 100px;
+  }
+  
+  .name {
+    display: unset;
+  }
+}

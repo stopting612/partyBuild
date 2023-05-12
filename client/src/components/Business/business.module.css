@@ -1,0 +1,58 @@
+.container {
+  background-color: var(--color-background-secondary);
+  padding: 12px;
+  margin: 12px 4px;
+}
+
+.content > div {
+  display: flex;
+  background-color: var(--color-background-main);
+  padding: 8px 4px;
+  margin: 8px 4px;
+  align-items: center;
+}
+
+.content > div > span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.order {
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: var(--color-background-hover);
+}
+
+.status {
+  position: relative;
+}
+
+.status:before {
+  content: '';
+  height: 4px;
+  width: 4px;
+  position: absolute;
+  left: calc(35% - 18px);
+  top: calc(50% - 2px);
+  border-radius: 5px;
+}
+
+.statusRed:before {
+  background-color: red;
+}
+
+.statusYellow:before {
+  background-color: yellow;
+}
+
+.statusGreen:before {
+  background-color: green;
+}
+
+.statusGrey:before {
+  background-color: grey;
+}

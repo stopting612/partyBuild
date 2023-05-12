@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+    color: #FFF;
+}
+
+.name {
+    color: var(--color-text-main);
+    font-size: 28px;
+}
+
+.info {
+    margin: 8px;
+}
+
+.info > span {
+    margin: 12px;
+}
